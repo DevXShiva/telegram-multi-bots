@@ -58,7 +58,7 @@ def initialize_json_files():
 initialize_json_files()
 
 # Create async bot instance
-bot = AsyncTeleBot(API_TOKEN)
+bot = AsyncTeleBot(BOT4_TOKEN)
 
 # Global Memory
 user_captcha = {}
@@ -625,4 +625,5 @@ async def main():
     
     # Start polling
     await bot.polling(non_stop=True)
+
 
