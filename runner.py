@@ -6,6 +6,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 from BOT.main import start_bot1
 from BOT1.main import start_bot2
 from BOT3.main import start_bot3
+from BOT4.main import start_bot4
 
 SECRET_KEY = os.getenv("RESTART_KEY", "mysecret")
 
@@ -32,7 +33,8 @@ async def main():
     await asyncio.gather(
         start_bot1(),
         start_bot2(),
-        start_bot3()
+        start_bot3(),
+        start_bot4()
     )
 
     await asyncio.Event().wait()
