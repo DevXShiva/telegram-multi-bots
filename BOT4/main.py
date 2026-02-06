@@ -425,7 +425,7 @@ async def handle_withdraw(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [
         [
             InlineKeyboardButton("1 💎 500 🎟", callback_data="redeem_500_1"),
-            InlineKeyboardButton("6 💎 1000 🎟", callback_data="redeem_1000_6")
+            InlineKeyboardButton("4 💎 1000 🎟", callback_data="redeem_1000_4")
         ],
         [
             InlineKeyboardButton("15 💎 2000 🎟", callback_data="redeem_2000_15"),
