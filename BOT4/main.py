@@ -38,7 +38,7 @@ FSUB_CHANNEL_IDS = [-1003627956964]  # Add more channel IDs here
 
 # Welcome Image
 WELCOME_IMAGE = "https://raw.githubusercontent.com/DevXShiva/Save-Restricted-Bot/refs/heads/main/logo.png"
-DEV_CREDITS = "\n\n👨‍💻 *Developed by:* [VoidXdevs](https://t.me/devXvoid)\n📜 *Source Code:* [Click Here](https://t.me/devXvoid)"
+DEV_CREDITS = "\n\n\n\n👨‍💻 *Developed by:* [VoidXdevs](https://t.me/devXvoid)"
 
 # ================= MONGODB SETUP =================
 client = AsyncIOMotorClient(MONGO_URI)
@@ -704,3 +704,4 @@ async def start_bot4():
 
     # ================= EXPORT FOR RUNNER =================
     __all__ = ['start_bot4']
+
